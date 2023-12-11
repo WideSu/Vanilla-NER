@@ -1,2 +1,2 @@
-# Vanilla-NER
-toy implementation of NER for SMU CS605 course project
+# Multi-language Named Entity Recognition by transfer learning using Pre-trained Transformer Model on Hugging Face
+
