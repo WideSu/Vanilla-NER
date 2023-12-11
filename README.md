@@ -1,4 +1,4 @@
-# Multi-lingual Named Entity Recognition
+# Multilingual Named Entity Recognition
 <p align="center">
   <img width="500" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/44a827e7-c9d5-45a8-8d2a-b247ea49c2ff">
 </p>
