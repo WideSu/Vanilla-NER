@@ -91,6 +91,3 @@ Hence the future work includes:
 <p align="center">
 <img width="500" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/cbb48e08-1e21-4e4b-9e2c-156b3b32f5a6">
 </p>
-
-
-
