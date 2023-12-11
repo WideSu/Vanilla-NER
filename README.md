@@ -23,7 +23,7 @@ Named-entity recognition is a subtask of information extraction that seeks to lo
 
 # Literature review: models that can do NER
 <p align="center">
-<img width="1261" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/23d548d3-7b2d-43bd-a8fe-39ad27333612">
+<img width="500" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/23d548d3-7b2d-43bd-a8fe-39ad27333612">
 </p>
 # Dataset
 - Chinese corpos: flair.datasets.NER_CHINESE_WEIBO()
