@@ -1,5 +1,5 @@
 # Multi-language Named Entity Recognition
-<img width="1140" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/44a827e7-c9d5-45a8-8d2a-b247ea49c2ff">
+<img width="100" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/44a827e7-c9d5-45a8-8d2a-b247ea49c2ff">
 
 # Content
 This repo includes the code for training a flair model using stacked embeddings (with word and flair contextual embeddings) to perform named entity recognition (NER). The dataset used is the CoNLL 2003 dataset for NER (train, dev) with a manually corrected (improved/cleaned) test set from the CrossWeigh paper called CoNLL++. The current state-of-the-art model on this dataset is from the CrossWeigh paper (also using flair) by Wang et al. (2019) with F1-score of 94.3%. Without using pooled-embeddings, CrossWeigh and training to a max 50 instead of 150 epochs, we get a micro F1-score of 93.5%, within 0.7 of a percentage point of the SOTA.
@@ -14,7 +14,7 @@ The notebook is structured as follows:
 # Task Description
 Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
 
-<img width="1016" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/9e751192-6aeb-4000-8bfc-9c40906030b9">
+<img width="100" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/9e751192-6aeb-4000-8bfc-9c40906030b9">
 
 # Literature review: models that can do NER
 <img width="1261" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/23d548d3-7b2d-43bd-a8fe-39ad27333612">
