@@ -18,7 +18,7 @@ The notebook is structured as follows:
 Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
 
 <p align="center">
-<img width="500" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/b4e629ed-3794-49c5-80b3-8a681d564609">
+<img width="500" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/067e9b6a-f51d-4fda-af56-553888f33e47">
 </p>
 
 # Literature review: models that can do NER
