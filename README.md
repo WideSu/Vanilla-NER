@@ -5,7 +5,7 @@
 
 
 # Content
-This repo includes the code for training a flair model using stacked embeddings (with word and flair contextual embeddings) to perform named entity recognition (NER). The dataset used is the CoNLL 2003 dataset for NER (train, dev) with a manually corrected (improved/cleaned) test set from the CrossWeigh paper called CoNLL++. The current state-of-the-art model on this dataset is from the CrossWeigh paper (also using flair) by Wang et al. (2019) with F1-score of 94.3%. Without using pooled-embeddings, CrossWeigh and training to a max 50 instead of 150 epochs, we get a micro F1-score of 93.5%, within 0.7 of a percentage point of the SOTA.
+A multi-lingual named entity classifier to perform named entity recognition (NER) on two datasets, International: CoNLL 2013, Chinese: Weibo. The current state-of-the-art model on this dataset is from the CrossWeigh paper (also using flair) by Wang et al. (2019) with F1-score of 94.3%. Without using pooled-embeddings, CrossWeigh and training to a max 50 instead of 150 epochs, we get a micro F1-score of 93.5%, within 0.7 of a percentage point of the SOTA.
 
 The notebook is structured as follows:
 
