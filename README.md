@@ -27,7 +27,7 @@ Named-entity recognition is a subtask of information extraction that seeks to lo
 </p>
 
 # Dataset
-- Chinese corpos: flair.datasets.NER_CHINESE_WEIBO()
+- Chinese corpos: flair.datasets.NER_CHINESE_WEIBO
 - English corpos: CoNLL++
 <p align="center">
   <img width="500" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/58cb473b-a528-417a-8a79-eb1c71d9e59d">
