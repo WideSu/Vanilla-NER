@@ -6,7 +6,7 @@
 
 # Content
 A multi-lingual named entity classifier to perform named entity recognition (NER) on two datasets, International: CoNLL 2003, Chinese: Weibo. The current state-of-the-art model on this dataset is from the CrossWeigh paper (also using flair) by Wang et al. (2019) with F1-score of 94.3%. Without using pooled-embeddings, CrossWeigh and training to a max 50 instead of 150 epochs, we get a micro F1-score of 93.5%, within 0.7 of a percentage point of the SOTA.
-- Data: We firstly use CoNLL 2013 dataset (train, dev) combined with a manually corrected (improved/cleaned) test set from the CrossWeigh paper called CoNLL++ for English corpos and Weibo dataset for Chinese corpos. Then we removed stopwrods and did tokenization using the BERT tokenizer.
+- Data: We used CoNLL 2003 dataset (train, dev) combined with a manually corrected (improved/cleaned) test set from the CrossWeigh paper called CoNLL++ for English corpos and Weibo dataset for Chinese corpos. Then we removed stopwrods and did tokenization using the BERT tokenizer.
 - Results: We used the current state-of-the-art model to test on CoNLL++ dataset, achieved a F1-score of 94.3% with pooled-embeddings. Without using pooled-embeddings, CrossWeigh and training to a max 50 instead of 150 epochs, we get a micro F1-score of 93.5%, within 0.7 of a percentage point of the SOTA.
 
 The notebook is structured as follows:
