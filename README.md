@@ -25,12 +25,14 @@ Named-entity recognition is a subtask of information extraction that seeks to lo
 <p align="center">
 <img width="500" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/23d548d3-7b2d-43bd-a8fe-39ad27333612">
 </p>
+
 # Dataset
 - Chinese corpos: flair.datasets.NER_CHINESE_WEIBO()
 - English corpos: CoNLL++
 <p align="center">
   <img width="500" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/58cb473b-a528-417a-8a79-eb1c71d9e59d">
 </p>
+
 # Data prep
 Since our dataset is relatively clean already, we only removed stopwrods and did tokenization using the BERT tokenizer.
 <p align="center">
@@ -40,6 +42,7 @@ The ground truth data was in the shown format, in English , each word token is a
 <p align="center">
 <img width="500" alt="image" src="https://github.com/WideSu/Vanilla-NER/assets/44923423/c5483d6d-ecba-455a-8bd8-e73ee1b24285">
 </p>
+
 # Our Model: BiLSTM-CRF
 We combined Bi-directionary LSTM with conditional random field, which has better result than only using BiLSTM.
 
